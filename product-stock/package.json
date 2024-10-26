@@ -1,0 +1,25 @@
+{
+    "name": "product-stock-cronjob",
+    "version": "1.0.0",
+    "description": "Cron job to check out-of-stock products and notify LogSnag",
+    "main": "cronJob.js",
+    "scripts": {
+        "start": "babel-node product-cronjob.js"
+    },
+    "dependencies": {
+        "@logsnag/node": "^1.0.1",
+        "axios": "^1.4.0",
+        "dotenv": "^16.0.3",
+        "js-yaml": "^4.1.0",
+        "kafkajs": "^2.2.4",
+        "mongoose": "^7.2.2",
+        "node-cron": "^3.0.2"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.25.6",
+        "@babel/core": "^7.25.2",
+        "@babel/node": "^7.25.0",
+        "@babel/preset-env": "^7.25.4"
+    },
+    "author": "Nathan Araujo"
+}
