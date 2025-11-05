@@ -1,4 +1,4 @@
 schedule:
   cron: '*/30 * * * *'
 notification:
-  email: 'thecollegehubqa1@outlook.com'
+  email: 'email@gmail.com'

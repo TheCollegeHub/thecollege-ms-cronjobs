@@ -10,8 +10,8 @@ dotenv.config();
 connectProducer()
 
 const logsnag = new LogSnag({
-  token: process.env.LOGSNAG_API_KEY || "65ebe711c44d07fcd34fee9eb9238260",
-  project: process.env.LOGSNAG_PROJECT_NAME || "thecollege-store"
+  token: process.env.LOGSNAG_API_KEY || "xxxxxxxxxxxxxxxxxxxxxxxx",
+  project: process.env.LOGSNAG_PROJECT_NAME || "project-name"
 });
 
 async function checkAndNotifyOutOfStock(email) {
